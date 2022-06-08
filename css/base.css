@@ -198,11 +198,11 @@ body {
 .menu-icon {
     position: absolute;
     background-color: transparent;
-    top: 1vmax;
+    top: 25%;
 }
 
 .menu-icon img {
-    width: 5vmax;
+    width: 4vh;
 }
 
 #burgerIcon {
@@ -213,13 +213,17 @@ body {
     right: 3vmax;
 }
 
+.pc-icon-set {
+    display: none;
+}
+
 .site-name {
     vertical-align: middle;
     display: table-cell;
     width: 100%;
     height: 20%;
 
-    font-size: 2.5vmax;
+    font-size: 3vh;
     color: #fff;
     text-align: center;
     z-index: 999;
@@ -361,4 +365,105 @@ body {
     width: 3vmax;
     margin-right: 3vmax;
     margin-top: 1vmax;
+}
+
+/* common breakpoint for medium size screen */
+@media screen and (min-width: 768pt) {
+
+    /* head bar */
+    #burgerIcon {
+        display: none;
+    }
+
+    .head-bar {
+        height: 8vh;
+    }
+
+    .menu-icon {
+        top: 25%;
+    }
+
+    .menu-icon img {
+        width: 5vh;
+    }
+
+    #searchIcon {
+        right: 20vmax;
+    }
+
+    .site-name {
+        font-size: 3vh;
+    }
+
+    .pc-icon-set {
+        display: block;
+    }
+
+    #storeIcon {
+        right: 15vmax;
+    }
+
+    #cartIcon {
+        right: 10vmax;
+    }
+
+    #profileIcon {
+        right: 5vmax;
+    }
+
+    /* change book block size */
+    .book-row {
+        padding-bottom: 1vmax;
+        margin-left: 2vmax;
+    }
+
+    .book-block {
+        margin-top: 3vmax;
+        margin-left: 1vmax;
+        height: 20vmax;
+        width: 10vmax;
+
+        border-radius: 1vmax;
+    }
+
+    .book-image {
+        height: 10vmax;
+        /* margin: 2vmax 3vmax 1vmax 3vmax; */
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .book-title {
+        height: 5vmax;
+        width: 16vmax;
+        margin-left: auto;
+        margin-right: auto;
+
+        line-height: 2.2vmax;
+        font-size: 1.5vmax;
+    }
+
+    .author {
+        font-size: 1.3vmax;
+    }
+
+    .book-bottom-block {
+        display: flex;
+        margin-top: 1.8vmax;
+    }
+
+    .price {
+        margin-left: 2vmax;
+        margin-right: auto;
+
+        color: #FE7D7D;
+    }
+
+    .cart-icon img {
+        margin-left: auto;
+        margin-right: 2vmax;
+        width: 3vmax;
+    }
+
+
 }

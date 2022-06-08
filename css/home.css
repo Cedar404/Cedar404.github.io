@@ -1,4 +1,13 @@
-.head-image-phone img {
+.head-image img {
     width: 100%;
     border-radius: 0 0 5% 5%;
+}
+
+
+@media screen and (min-width: 768pt) {
+    .head-image img {
+        content: url(/images/largeHeadImage.png);
+        width: 100%;
+        border-radius: 0 0 5% 5%;
+    }
 }
