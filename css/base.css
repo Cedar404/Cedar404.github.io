@@ -276,7 +276,9 @@ body {
 
 .book-image {
     height: 20vmax;
-    margin: 2vmax 3vmax 1vmax 3vmax;
+    /* margin: 2vmax 3vmax 1vmax 3vmax; */
+    margin-right: auto;
+    margin-left: auto
 }
 
 .book-title {
