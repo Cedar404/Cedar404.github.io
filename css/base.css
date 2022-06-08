@@ -191,7 +191,7 @@ body {
     width: 100%;
     height: 7vh;
     background-color: #ED87A4;
-    z-index: 999;
+    z-index: 1;
     display: table;
 }
 
@@ -226,8 +226,73 @@ body {
     font-size: 3vh;
     color: #fff;
     text-align: center;
-    z-index: 999;
+    z-index: 2;
 }
+
+/* side nav bar */
+#side-nav {
+    display: none;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    width: 70vw;
+
+    background-color: #ED87A4;
+
+    z-index: 3;
+}
+
+#side-nav a {
+    display: block;
+    margin-left: 2vmax;
+    color: #fff;
+    text-decoration: none;
+}
+
+#closeIcon,
+.phone-icon-set {
+    display: block;
+    margin-left: 2vmax;
+}
+
+.phone-icon-set {
+    margin-top: 1vmax;
+}
+
+.phone-icon-set>* {
+    vertical-align: middle;
+}
+
+#closeIcon img {
+    width: 5vmax;
+    margin-top: 2vmax;
+}
+
+.phone-icon-set img {
+    width: 6vmax;
+    margin-right: 1vmax;
+}
+
+.phone-icon-set h3 {
+    display: inline-block;
+    font-size: 2vmax;
+}
+
+.menu-1 {
+    font-size: 2vmax;
+    line-height: 5.5vmax;
+}
+
+#side-nav .menu-2 {
+    margin-left: 6vmax;
+    line-height: 4.5vmax;
+
+    font-size: 1.8vmax;
+    color: #494949;
+}
+
+
 
 /* book list title block */
 .title-block {
@@ -426,8 +491,55 @@ body {
     }
 
     /* side nav bar */
-    .phone-icon-set {
+    #side-nav {
+        display: block;
+        position: fixed;
+        top: 15%;
+        /* bottom: 5%; */
+        left: 3%;
+
+        width: 15vw;
+        height: 37vw;
+        padding-top: 1vmax;
+        padding-bottom: 1vmax;
+        background-color: #FFF6F8;
+
+        z-index: 3;
+        border-radius: 1vmax;
+        /* border: #494949; */
+    }
+
+    #side-nav .phone-icon-set {
         display: none;
+    }
+
+    #side-nav #closeIcon {
+        display: none;
+    }
+
+    #side-nav a {
+        color: #494949;
+    }
+
+    .menu-1 {
+        font-size: 0.8vmax;
+        line-height: 3vmax;
+    }
+
+    #side-nav .menu-2 {
+        margin-left: 4vmax;
+        line-height: 2.5vmax;
+
+        font-size: 0.7vmax;
+    }
+
+    #side-nav #menu-item1 {
+        color: #FE7D7D !important;
+    }
+
+    /* leave space for side nav bar */
+    .main-body {
+        margin-left: 16vw;
     }
 
     /* change book block size */
@@ -454,6 +566,7 @@ body {
 
     .go-arrow {
         display: inline-block;
+        margin-left: 2vmax;
     }
 
     .go-arrow img {
@@ -462,7 +575,7 @@ body {
 
     .book-block {
         margin-top: 2.5vmax;
-        margin-left: 1vmax;
+        margin-left: 2vmax;
         height: 20vmax;
         width: 11vmax;
 

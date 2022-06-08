@@ -31,13 +31,13 @@
         </div>
     </div>
 
-    <nav>
-        <a href="#"><img src="../images/close.png" alt=""></a>
+    <nav id="side-nav">
+        <a href="#" id="closeIcon" onclick="closeMenu(this)"><img src="../images/close.png"></a>
         <a href="#" class="phone-icon-set"><img src="../images/profile.png">
             <h3 class="phone-menu-big">Log In</h3>
         </a>
 
-        <a href="#" class="phone-icon-set><img src=" ../images/cart.png">
+        <a href="#" class="phone-icon-set"><img src="../images/cart.png">
             <h3 class="phone-menu-big">Shopping Cart</h3>
         </a>
 
@@ -45,7 +45,7 @@
             <h3 class="phone-menu-big">Find the Store</h3>
         </a>
 
-        <a href="#" class="menu-1">Books & Media</a>
+        <a href="#" class="menu-1" id="menu-item1">Books & Media</a>
         <a href="#" class="menu-2">Bestsellers</a>
         <a href="#" class="menu-2">Browse by Section</a>
         <a href="#" class="menu-2">Browse Collections</a>
@@ -62,118 +62,120 @@
 
     <div class="head-image"><img class="div-shadow" src="../images/small head image.png"></div>
 
-    <!-- group of books and its title  -->
-    <div class="book-class">
-        <div class="title-block">
-            <h2 class="title div-shadow">Recommend For You</h2>
+    <div class="main-body">
+        <!-- group of books and its title  -->
+        <div class="book-class">
+            <div class="title-block">
+                <h2 class="title div-shadow">Recommend For You</h2>
+            </div>
+
+
+            <div class="book-row">
+                <div class="go-arrow"><img src="../images/go left.png"></div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-time is a mother.png" alt="">
+                    <h3 class="book-title">Time is a mother</h3>
+                    <h4 class="author">Ocean Vuong</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-the seven.png" alt="">
+                    <h3 class="book-title">The Seven Husbands of Evelyn Hugo</h3>
+                    <h4 class="author">Taylor Jenkins Reid</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-my year.png" alt="">
+                    <h3 class="book-title">My Year of Rest and Relaxation</h3>
+                    <h4 class="author">Taylor Jenkins Reid</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-it ends.png" alt="">
+                    <h3 class="book-title">It Ends With Us</h3>
+                    <h4 class="author">Colleen Hoover</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-the idot.png" alt="">
+                    <h3 class="book-title">The Idiot</h3>
+                    <h4 class="author">Elif Batuman</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="go-arrow"><img src="../images/go right.png"></div>
+            </div>
+
         </div>
 
+        <div class="book-class">
+            <div class="title-block">
+                <h2 class="title div-shadow">Best Sellers</h2>
+            </div>
 
-        <div class="book-row">
-            <div class="go-arrow"><img src="../images/go left.png"></div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-time is a mother.png" alt="">
-                <h3 class="book-title">Time is a mother</h3>
-                <h4 class="author">Ocean Vuong</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+            <div class="book-row">
+                <div class="go-arrow"><img src="../images/go left.png"></div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-time is a mother.png" alt="">
+                    <h3 class="book-title">Time is a mother</h3>
+                    <h4 class="author">Ocean Vuong</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
                 </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-the seven.png" alt="">
-                <h3 class="book-title">The Seven Husbands of Evelyn Hugo</h3>
-                <h4 class="author">Taylor Jenkins Reid</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-the seven.png" alt="">
+                    <h3 class="book-title">The Seven Husbands of Evelyn Hugo</h3>
+                    <h4 class="author">Taylor Jenkins Reid</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
                 </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-my year.png" alt="">
-                <h3 class="book-title">My Year of Rest and Relaxation</h3>
-                <h4 class="author">Taylor Jenkins Reid</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-my year.png" alt="">
+                    <h3 class="book-title">My Year of Rest and Relaxation</h3>
+                    <h4 class="author">Taylor Jenkins Reid</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
                 </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-it ends.png" alt="">
-                <h3 class="book-title">It Ends With Us</h3>
-                <h4 class="author">Colleen Hoover</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-it ends.png" alt="">
+                    <h3 class="book-title">It Ends With Us</h3>
+                    <h4 class="author">Colleen Hoover</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
                 </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-the idot.png" alt="">
-                <h3 class="book-title">The Idiot</h3>
-                <h4 class="author">Elif Batuman</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                <div class="book-block div-shadow">
+                    <img class="book-image" src="../images/book-the idot.png" alt="">
+                    <h3 class="book-title">The Idiot</h3>
+                    <h4 class="author">Elif Batuman</h4>
+                    <div class="book-bottom-block">
+                        <div class="price">$15.0</div>
+                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                    </div>
                 </div>
+                <div class="go-arrow"><img src="../images/go right.png"></div>
             </div>
-            <div class="go-arrow"><img src="../images/go right.png"></div>
-        </div>
-
-    </div>
-
-    <div class="book-class">
-        <div class="title-block">
-            <h2 class="title div-shadow">Best Sellers</h2>
-        </div>
-
-        <div class="book-row">
-            <div class="go-arrow"><img src="../images/go left.png"></div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-time is a mother.png" alt="">
-                <h3 class="book-title">Time is a mother</h3>
-                <h4 class="author">Ocean Vuong</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
-                </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-the seven.png" alt="">
-                <h3 class="book-title">The Seven Husbands of Evelyn Hugo</h3>
-                <h4 class="author">Taylor Jenkins Reid</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
-                </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-my year.png" alt="">
-                <h3 class="book-title">My Year of Rest and Relaxation</h3>
-                <h4 class="author">Taylor Jenkins Reid</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
-                </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-it ends.png" alt="">
-                <h3 class="book-title">It Ends With Us</h3>
-                <h4 class="author">Colleen Hoover</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
-                </div>
-            </div>
-            <div class="book-block div-shadow">
-                <img class="book-image" src="../images/book-the idot.png" alt="">
-                <h3 class="book-title">The Idiot</h3>
-                <h4 class="author">Elif Batuman</h4>
-                <div class="book-bottom-block">
-                    <div class="price">$15.0</div>
-                    <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
-                </div>
-            </div>
-            <div class="go-arrow"><img src="../images/go right.png"></div>
         </div>
     </div>
 
