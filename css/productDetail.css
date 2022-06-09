@@ -2,6 +2,124 @@
     display: none;
 }
 
+.detail-image {
+    float: right;
+    margin-top: 10vh;
+    margin-right: 4vw;
+    margin-left: 2vw;
+}
+
+.detail-image img {
+    width: 19vmax;
+}
+
+.brief-info {
+    margin-left: 3vmax;
+}
+
+.back-arrow1 img {
+    margin-top: 9vh;
+    margin-bottom: 1vh;
+    width: 5vw;
+}
+
+#book-title {
+    margin-bottom: 1vh;
+    font-size: 2vmax;
+    font-family: Arial Rounded MT;
+    line-height: 3.5vmax;
+}
+
+.brief-info {
+    font-size: 1.6vmax;
+    font-family: Georgia;
+    line-height: 2vmax;
+}
+
+.rating-holder>* {
+    vertical-align: middle;
+}
+
+.rating-holder img {
+    width: 25vw;
+}
+
+.rating-holder {
+    margin-bottom: 1.5vh;
+}
+
+.info2>* {
+    vertical-align: middle;
+}
+
+.info2 img {
+    width: 2vmax;
+    margin-right: 2vw;
+    margin-bottom: 0.5vh;
+}
+
+#condition {
+    margin-top: 1.5vh;
+}
+
+.price {
+    margin-left: 0;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+    font-size: 2.5vmax;
+}
+
+.phone-container {
+    padding: 2vmax 3vmax;
+
+    background-color: #fff;
+
+    font-family: Sitka Text;
+    font-size: 1.7vmax;
+    line-height: 2.5vmax;
+
+    border-radius: 1vmax;
+}
+
+.phone-container h3 {
+    margin-bottom: 1vh;
+    font-size: 2.2vmax;
+}
+
+.phone-container p {
+    margin-bottom: 2vh;
+}
+
+.share {
+    font-size: 2vmax;
+    font-family: Georgia;
+    font-weight: 700;
+}
+
+.share span {
+    margin-right: 2vmax;
+}
+
+.share>* {
+    vertical-align: middle;
+}
+
+.link-iamges img {
+    width: 3vmax;
+    margin-right: 1vmax;
+}
+
+.add-cart {
+    margin: 2vh 2vmax;
+    text-align: center;
+    line-height: 5vh;
+    color: #fff;
+    font-size: 2.5vmax;
+    height: 5vh;
+    background-color: #FAD066;
+    border-radius: 1vmax;
+}
+
 @media screen and (min-width: 768pt) {
     .book-class {
         display: block;
