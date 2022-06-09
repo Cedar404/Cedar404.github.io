@@ -30,6 +30,12 @@
     border: none;
 }
 
+#breadNav {
+    margin: 10vh auto 3vh 2vh;
+    font-size: 2.2vh;
+    color: #F49555;
+}
+
 .book-detail-block {
     height: 30vmax;
     width: 100%;
