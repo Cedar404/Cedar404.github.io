@@ -1,0 +1,74 @@
+#breadNav {
+    margin: 10vh auto 3vh 2vh;
+    font-size: 2.2vh;
+    color: #F49555;
+}
+
+.book-detail-block {
+    position: relative;
+    height: 30vmax;
+    width: 100%;
+    margin-bottom: 2vh;
+    background-color: #fff;
+    border-radius: 1vh;
+}
+
+.book-detailed-image {
+    float: left;
+    margin: 2vh 5%;
+
+    width: 16vmax;
+}
+
+.book-info {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-title {
+    margin-bottom: 1vh;
+    padding-top: 2vh;
+    width: 60%;
+    height: 10vmax;
+    font-size: 2vmax;
+    line-height: 3vmax;
+}
+
+.book-info {
+    font-size: 1.6vmax;
+    font-family: Georgia;
+    line-height: 2vmax;
+}
+
+.info2 {
+    display: none;
+}
+
+.change-number {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 10vmax;
+}
+
+.price {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    margin-left: 0%;
+    font-size: 2.5vmax;
+}
+
+.gift-wrap {
+    padding-left: 5%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 1.5vmax;
+    background-color: #fff;
+    border-radius: 1vh;
+}
+
+.gift-wrap input {
+    margin-right: 3%;
+}
