@@ -1,0 +1,92 @@
+.rec-block {
+    width: 90%;
+    height: 6vh;
+    margin: 10vh auto 3vh auto;
+    background-color: #FAD066;
+    border-radius: 1vh;
+}
+
+.rec-block>* {
+    vertical-align: middle;
+}
+
+.rec-block img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.5vh;
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+}
+
+.rec-block input {
+    width: 25vh;
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+    background-color: #FAD066;
+
+    color: #494949;
+    font-size: 1.8vh;
+
+    border: none;
+}
+
+.book-detail-block {
+    height: 29vmax;
+    margin-bottom: 2vh;
+    background-color: #fff;
+    border-radius: 1vh;
+}
+
+.book-detailed-image {
+    float: left;
+    margin: 2vh 5%;
+
+    width: 15vmax;
+}
+
+.book-info {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-title {
+    margin-bottom: 1vh;
+    padding-top: 2vh;
+    width: 90vw;
+    height: 7vmax;
+    font-size: 2vmax;
+    line-height: 3vmax;
+}
+
+.author,
+.book-detail {
+    font-family: sitka text;
+}
+
+.book-detail {
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    color: #494949;
+    font-size: 1.4vmax;
+    line-height: 3vmax;
+}
+
+.book-bottom-block {
+    margin-top: 0%;
+    padding-bottom: 1vh;
+}
+
+.price {
+    margin-left: 0%;
+
+    font-size: 2.5vmax;
+    font-family: stika text;
+}
+
+@media screen and (min-width: 768pt) {
+    .main-body {
+        margin-top: 15vh;
+        margin-left: 20vw;
+    }
+}
