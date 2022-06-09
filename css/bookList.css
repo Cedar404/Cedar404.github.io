@@ -31,7 +31,8 @@
 }
 
 .book-detail-block {
-    height: 29vmax;
+    height: 30vmax;
+    width: 100%;
     margin-bottom: 2vh;
     background-color: #fff;
     border-radius: 1vh;
@@ -41,7 +42,7 @@
     float: left;
     margin: 2vh 5%;
 
-    width: 15vmax;
+    width: 16vmax;
 }
 
 .book-info {
@@ -54,7 +55,7 @@
     margin-bottom: 1vh;
     padding-top: 2vh;
     width: 90vw;
-    height: 7vmax;
+    height: 6vmax;
     font-size: 2vmax;
     line-height: 3vmax;
 }
@@ -84,9 +85,18 @@
     font-family: stika text;
 }
 
+.banner {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
 @media screen and (min-width: 768pt) {
     .main-body {
         margin-top: 15vh;
         margin-left: 20vw;
+    }
+
+    .banner img {
+        content: url(/images/banner\ large.png);
     }
 }
