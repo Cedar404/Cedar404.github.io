@@ -6,9 +6,9 @@
     border-radius: 1vh;
 }
 
-.rec-block>* {
+/* .rec-block>* {
     vertical-align: middle;
-}
+} */
 
 .rec-block img {
     display: inline-block;
@@ -46,7 +46,7 @@
 }
 
 .book-info {
-    width: 90vw;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,7 +54,7 @@
 .book-title {
     margin-bottom: 1vh;
     padding-top: 2vh;
-    width: 90vw;
+    width: 100%;
     height: 6vmax;
     font-size: 2vmax;
     line-height: 3vmax;
@@ -62,6 +62,7 @@
 
 .author,
 .book-detail {
+    font-size: 1.4vmax;
     font-family: sitka text;
 }
 
@@ -86,17 +87,104 @@
 }
 
 .banner {
-    width: 100%;
     margin-bottom: 2vh;
+}
+
+.banner img {
+    width: 100%;
 }
 
 @media screen and (min-width: 768pt) {
     .main-body {
         margin-top: 15vh;
-        margin-left: 20vw;
+        margin-left: 22vw;
+        margin-right: 5vw;
+    }
+
+    .rec-block {
+        width: 65%;
+        height: 3vmax;
+        margin-left: 0%;
+        margin-bottom: 1.5vmax;
+    }
+
+    .rec-block img {
+        width: 2vh;
+        margin-left: 2vh;
+        margin-top: 1vh;
+    }
+
+    .rec-block input {
+        width: 60%;
+        margin-top: 1.2vh;
+
+        font-size: 1.5vh;
+    }
+
+    .book-detail-block {
+        /* position: relative; */
+        flex-basis: 32%;
+        height: 17vmax;
+        /* margin-right: 2vmax; */
+        border-radius: 1vh;
+    }
+
+    .book-detail-block+.book-detail-block {
+        margin-left: 2vmax;
+    }
+
+    .book-detailed-image {
+        margin: 2vh 4%;
+
+        width: 8.5vmax;
+    }
+
+    .book-info {
+
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .book-title {
+        height: 2.8vmax;
+        font-size: 1vmax;
+        line-height: 1.5vmax;
+    }
+
+    .author,
+    .book-detail {
+        font-family: sitka text;
+        font-size: 0.75vmax;
+    }
+
+    .book-detail {
+        margin-top: 1vh;
+        margin-bottom: 0.5vh;
+        color: #494949;
+        line-height: 1.5vmax;
+    }
+
+    .book-bottom-block {
+        /* position: absolute; */
+        bottom: 1vmax;
+        margin-top: 0%;
+        padding-bottom: 1vh;
+    }
+
+    .price {
+        margin-left: 0%;
+
+        font-size: 1.5vmax;
+    }
+
+    .book-row-holder {
+        display: flex;
     }
 
     .banner img {
+        width: 100%;
         content: url(/images/banner\ large.png);
     }
+
 }
