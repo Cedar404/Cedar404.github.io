@@ -72,3 +72,41 @@
 .gift-wrap input {
     margin-right: 3%;
 }
+
+.subtotal {
+    margin-top: 2vh;
+    padding: 1vh 5%;
+    height: 10vh;
+
+    background-color: #fff;
+    border-radius: 1vh;
+}
+
+.subtotal span {
+    font-size: 3vmax;
+    font-family: stika text;
+}
+
+.subtotal-price {
+    color: #FE7D7D;
+}
+
+.sub-info-holder {
+    display: flex;
+}
+
+
+.subtotal-price {
+    margin-left: auto;
+}
+
+.checkout-button {
+    margin: 2vh 2vmax;
+    text-align: center;
+    line-height: 5vh;
+    color: #494949;
+    font-size: 2.5vmax;
+    height: 5vh;
+    background-color: #FAD066;
+    border-radius: 1vmax;
+}
