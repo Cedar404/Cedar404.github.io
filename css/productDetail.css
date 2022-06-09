@@ -1,0 +1,11 @@
+.book-class {
+    display: none;
+}
+
+@media screen and (min-width: 768pt) {
+    .book-class {
+        display: block;
+    }
+
+    ;
+}
