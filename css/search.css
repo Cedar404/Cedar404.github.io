@@ -1,0 +1,151 @@
+.search-body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    width: 90%;
+}
+
+.rec-block {
+    width: 100%;
+    height: 6vh;
+    margin-top: 0.1vmax;
+    background-color: #fff;
+    border-radius: 1vh;
+}
+
+.rec-block>* {
+    vertical-align: middle;
+}
+
+.rec-block img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.5vh;
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+}
+
+.rec-block input {
+    width: 30vh;
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+    background-color: #FAD066;
+
+    color: #494949;
+    font-size: 1.8vh;
+
+    border: none;
+}
+
+.rec-block h4 {
+    display: inline-block;
+    margin-left: 2vh;
+    margin-top: 1vh;
+
+    font-size: 2vh;
+}
+
+#searchBlock {
+    background-color: #FAD066;
+}
+
+.event-block {
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+}
+
+@media screen and (min-width: 768pt) {
+    .search-body {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11vh;
+        width: 50%;
+    }
+
+    .rec-block {
+        width: 100%;
+        height: 6vh;
+        border-radius: 1vh;
+    }
+
+    .rec-block img {
+        width: 3vh;
+        margin-left: 4vh;
+        margin-top: 2vh;
+    }
+
+    .rec-block input {
+        width: 30vmax;
+        margin-left: 4vh;
+        margin-top: 2vh;
+
+        font-size: 2vh;
+    }
+
+    .rec-block h4 {
+        margin-left: 4vh;
+        margin-top: 2vh;
+
+        font-size: 2vh;
+    }
+
+    /* events */
+    .events-holder {
+        display: flex;
+    }
+
+    .event-block {
+        display: inline-block;
+
+        width: 46%;
+        height: 42vh;
+        margin-top: 2vh;
+        background-color: #fff;
+
+        border-radius: 1vh;
+    }
+
+    .event-block img {
+        display: block;
+
+        margin: 2vh auto 1vh auto;
+        width: 80%;
+    }
+
+    .event-block h2,
+    .event-time,
+    .event-detail {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    .event-block h2 {
+        font-size: 1.6vh;
+        line-height: 2.5vh;
+    }
+
+    .event-time {
+        margin-top: 1vh;
+        margin-bottom: 0.5vh;
+        color: #FE7D7D;
+        font-size: 1.2vh;
+    }
+
+    .event-detail {
+        height: 2vh;
+        font-size: 1.2vh;
+        line-height: 1.8vh;
+        /* margin-bottom: 2vh; */
+    }
+
+    #event2 {
+        margin-left: auto;
+    }
+
+
+}
