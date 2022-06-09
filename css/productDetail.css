@@ -62,10 +62,11 @@
     margin-top: 1.5vh;
 }
 
-.price {
+.detail-price {
     margin-left: 0;
     margin-top: 1.5vh;
     margin-bottom: 3vh;
+    color: #FE7D7D;
     font-size: 2.5vmax;
 }
 
