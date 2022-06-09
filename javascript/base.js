@@ -1,3 +1,4 @@
+//Open nav bar on phone
 openMenu = function () {
     document.getElementById("side-nav").style.display = "block";
     document.getElementById("burgerIcon").style.display = "none";
