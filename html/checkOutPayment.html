@@ -39,60 +39,37 @@
 
         <div class="input-column1">
             <div class="group-holder">
-                <label class="input-item">First Name:*</label>
+                <label class="input-item">Email:*</label>
                 <input type="text">
             </div>
             <div class="group-holder">
-                <label class="input-item">Last Name:*</label>
+                <label class="input-item">Phone:*</label>
                 <input type="text">
             </div>
-            <div class="group-holder">
-                <label class="input-item">Country:*</label>
-                <select id="country">
-                    <option value="USA">USA</option>
-                    <option value="Britain">Britain</option>
-                    <option value="USA">Canada</option>
-                    <option value="Australia">Australia</option>
-                    <option value="China">China</option>
-                </select>
+            <h5 class="checkout-heading" id="payMethod">Payment Methods</h5>
+            <div class="credit-block add-border">
+                <input type="radio" name="payment-method">
+                <label class="radio-choice">Credit Card</label>
+                <div class="group-holder">
+                    <label class="input-item">Card Number:*</label>
+                    <input type="text">
+                </div>
+                <div class="group-holder half-input" id="exp">
+                    <label class="input-item">Exp. Date (MM/YY)*</label>
+                    <input type="text">
+                </div>
+                <div class="group-holder half-input" id="cvv">
+                    <label class="input-item">CVV:*</label>
+                    <input type="text">
+                </div>
             </div>
-            <div class="group-holder">
-                <label class="input-item">Street Address 1:*</label>
-                <input type="text">
-            </div>
-            <div class="group-holder">
-                <label class="input-item">Street Address 2:</label>
-                <input type="text">
-            </div>
-            <div class="group-holder">
-                <label class="input-item">City:*</label>
-                <input type="text">
-            </div>
-            <div class="group-holder half-input" id="state">
-                <label class="input-item">State:</label>
-                <input type="text">
-            </div>
-            <div class="group-holder half-input">
-                <label class="input-item">Zip Code:*</label>
-                <input type="text">
+            <div class="paypal add-border">
+                <input type="radio" name="payment-method">
+                <label class="radio-choice">Paypal</label>
             </div>
         </div>
 
-
-
         <div class="input-column2">
-            <div class="group-holder">
-                <label class="input-item">Special Instructions:</label>
-                <!-- <input type="text"> -->
-                <textarea id="instruction" cols="40" rows="5"></textarea>
-            </div>
-            <div class="radio-holder">
-                <h5 class="checkout-heading">Shipping Method</h5>
-                <input type="radio" name="shipping method">
-                <label class="radio-choice">Standard $9.9</label><br>
-                <input type="radio" name="shipping method">
-                <label class="radio-choice">Priority $19.9</label>
-            </div>
         </div>
 
         <div class="input-column3">

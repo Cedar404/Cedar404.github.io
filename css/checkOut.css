@@ -10,7 +10,7 @@
 
 .input-item {
     display: block;
-    font-size: 2vmax;
+    font-size: 1.5vmax;
     font-family: Sitka Text;
     margin-top: 1.5vh;
     margin-bottom: 0.5vh;
@@ -148,6 +148,37 @@ textarea {
     height: 5vh;
     background-color: #FAD066;
     border-radius: 1vmax;
+}
+
+/* payment page */
+#payMethod {
+    margin: 2vh 0;
+}
+
+.add-border {
+    background-color: #fff;
+    border-width: 2px;
+    border-color: rgb(118, 118, 118);
+    border-style: inset;
+    border-radius: 1vmax;
+}
+
+.credit-block {
+    padding: 2vh;
+}
+
+#exp {
+    margin-right: 5vw;
+}
+
+#exp input,
+#cvv input {
+    width: 36vw;
+}
+
+.paypal {
+    margin-top: 2vh;
+    padding: 2vh;
 }
 
 @media screen and (min-width: 768pt) {
@@ -315,6 +346,16 @@ textarea {
         margin: 5vh 0;
         font-size: 1.5vmax;
         border-radius: 0.5vmax;
+    }
+
+    /* payment page */
+    #exp {
+        margin-right: 1vw;
+    }
+
+    #exp input,
+    #cvv input {
+        width: 7vw;
     }
 
 }
