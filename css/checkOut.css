@@ -1,0 +1,164 @@
+.input-item {
+    display: block;
+}
+
+.checkout-phone-holder {
+    width: 90%;
+    margin: 10vh auto 3vh auto;
+}
+
+.input-item {
+    font-size: 2vmax;
+    font-family: Sitka Text;
+    margin-top: 1.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.half-input {
+    display: inline-block;
+
+}
+
+.group-holder input,
+select {
+    width: 100%;
+    height: 5vh;
+    padding: 0;
+    border-width: 2px;
+    border-radius: 1vmax;
+}
+
+.half-input input {
+    width: 40vw;
+}
+
+#state {
+    margin-right: 6vw;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 1vmax;
+    margin-bottom: 1vh;
+}
+
+.radio-holder {
+    width: 100%;
+    background-color: #fff;
+    border-width: 2px;
+    border-color: rgb(118, 118, 118);
+    border-style: inset;
+    border-radius: 1vmax;
+    padding-bottom: 1vh;
+}
+
+.radio-holder input,
+.radio-holder label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2vh;
+    margin-left: 5%;
+}
+
+.radio-group {
+    vertical-align: middle;
+}
+
+.cart-review {
+    width: 100%;
+    margin-top: 2vmax;
+    background-color: #fff;
+    border-width: 2px;
+    border-color: rgb(118, 118, 118);
+    border-style: inset;
+    border-radius: 1vmax;
+}
+
+.book-detail-block {
+    position: relative;
+    height: 20vmax;
+    border-radius: 1vh;
+}
+
+.checkout-heading {
+    margin-left: 5%;
+    margin-top: 1vh;
+}
+
+.book-detailed-image {
+    float: left;
+    margin: 2vh 5%;
+
+    width: 10vmax;
+}
+
+.book-info {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-title {
+    margin-bottom: 1vh;
+    padding-top: 2vh;
+    width: 82%;
+    height: 6vmax;
+    font-size: 1.6vmax;
+    line-height: 3vmax;
+}
+
+
+.book-info {
+    font-size: 1.2vmax;
+    font-family: Georgia;
+    line-height: 2vmax;
+}
+
+.info2 {
+    display: none;
+}
+
+
+.change-number {
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+    width: 10vmax;
+}
+
+.cart-price {
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    margin-left: 0%;
+    font-size: 2vmax;
+    color: #FE7D7D;
+}
+
+.continue-button {
+    margin: 2vh 0;
+    text-align: center;
+    line-height: 5vh;
+    color: #494949;
+    font-size: 2.5vmax;
+    height: 5vh;
+    background-color: #FAD066;
+    border-radius: 1vmax;
+}
+
+@media screen and (min-width: 768pt) {
+
+    .footer {
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .input-column1,
+    .input-column2,
+    .input-column3 {
+        display: inline-block;
+        margin-top: 20vh;
+    }
+
+
+}

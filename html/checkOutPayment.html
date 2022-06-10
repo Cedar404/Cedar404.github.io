@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Payment</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/checkOut.css">
+    <script src="../javascript/base.js"></script>
+</head>
+
+<body>
+    <div class="head-bar div-shadow">
+        <div class="menu-icon" id="backArrow"><a href="#">
+                <img src="../images/backward arrow.png"></a></div>
+        <h1 class="site-name">Strandbooks</h1>
+        <div class="menu-icon" id="searchIcon"><a href="#"></a><img src="../images/search.png"></div>
+        <div class="menu-icon pc-icon-set" id="storeIcon">
+            <a href="#"><img src="../images/find store.png"></a>
+            <!-- <div>Find Store</div> -->
+        </div>
+        <div class="menu-icon  pc-icon-set" id="cartIcon">
+            <a href="#"><img src="../images/cart.png"></a>
+            <!-- <div>Cart</div> -->
+        </div>
+        <div class="menu-icon  pc-icon-set" id="profileIcon">
+            <a href="#"><img src="../images/profile.png"></a>
+            <!-- <div>Profile</div> -->
+        </div>
+    </div>
+
+    <div class="checkout-phone-holder">
+
+        <div class="process-bar-holder">
+            <div class="process-bar"></div>
+            <div class="steps-holder">
+                <div class="point" id="shipping"></div>
+                <div class="steps">Shipping</div>
+            </div>
+            <div class="steps-holder">
+                <div class="point" id="Payment"></div>
+                <div class="steps">Payment</div>
+            </div>
+            <div class="steps-holder">
+                <div class="point" id="Review"></div>
+                <div class="steps">Review</div>
+            </div>
+            <div class="steps-holder">
+                <div class="point" id="shipping"></div>
+                <div class="steps">order</div>
+            </div>
+
+        </div>
+
+        <div class="input-column1">
+            <div class="group-holder">
+                <label class="input-item">First Name:*</label>
+                <input type="text">
+            </div>
+            <div class="group-holder">
+                <label class="input-item">Last Name:*</label>
+                <input type="text">
+            </div>
+            <div class="group-holder">
+                <label class="input-item">Country:*</label>
+                <select id="country">
+                    <option value="USA">USA</option>
+                    <option value="Britain">Britain</option>
+                    <option value="USA">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="China">China</option>
+                </select>
+            </div>
+            <div class="group-holder">
+                <label class="input-item">Street Address 1:*</label>
+                <input type="text">
+            </div>
+            <div class="group-holder">
+                <label class="input-item">Street Address 2:</label>
+                <input type="text">
+            </div>
+            <div class="group-holder">
+                <label class="input-item">City:*</label>
+                <input type="text">
+            </div>
+            <div class="group-holder half-input" id="state">
+                <label class="input-item">State:</label>
+                <input type="text">
+            </div>
+            <div class="group-holder half-input">
+                <label class="input-item">Zip Code:*</label>
+                <input type="text">
+            </div>
+        </div>
+
+
+
+        <div class="input-column2">
+            <div class="group-holder">
+                <label class="input-item">Special Instructions:</label>
+                <!-- <input type="text"> -->
+                <textarea id="instruction" cols="40" rows="5"></textarea>
+            </div>
+            <div class="radio-holder">
+                <h5 class="checkout-heading">Shipping Method</h5>
+                <input type="radio" name="shipping method">
+                <label class="radio-choice">Standard $9.9</label><br>
+                <input type="radio" name="shipping method">
+                <label class="radio-choice">Priority $19.9</label>
+            </div>
+        </div>
+
+        <div class="input-column3">
+            <div class="cart-review">
+                <h5 class="checkout-heading">Order Items</h5>
+                <div class="book-detail-block">
+                    <img class="book-detailed-image" src="../images/book-the seven.png">
+                    <div class="cart-price">$15.0</div>
+                    <div class="book-info">
+                        <h3 class="cart-title">The Seven Husbands of Evelyn Hugo</h3>
+                        <div class="info1">Taylor Jenkins Reid</div>
+                        <div class="info1">PaperBack</div>
+                        <div class="info2" id="condition">
+                            <span>Condition: New</span>
+                        </div>
+                        <div class="info2">
+                            <span>Available in Strandbooks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-detail-block">
+                    <img class="book-detailed-image" src="../images/book-my year.png">
+                    <div class="cart-price">$15.0</div>
+                    <div class="book-info">
+                        <h3 class="cart-title">My Year of Rest and Relaxation</h3>
+                        <div class="info1">Ottessa Moshfegh</div>
+                        <div class="info1">PaperBack</div>
+                        <div class="info2" id="condition">
+                            <span>Condition: New</span>
+                        </div>
+                        <div class="info2">
+                            <span>Available in Strandbooks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="continue-button div-shadow">Continue</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot-sec" id="sec1">
+            <div class="foot-item">Book HookUp</div>
+            <div class="foot-item">Buyout & Filming Inquiries</div>
+            <div class="foot-item">Gift Cards</div>
+        </div>
+
+        <div class="foot-sec" id="sec2">
+            <div class="foot-item">About</div>
+            <div class="foot-item">Contact Us</div>
+            <div class="foot-item">Work at Strand</div>
+        </div>
+
+        <div class="foot-sec" id="sec3">
+            <div class="foot-item">Pick Of The Month</div>
+            <div class="foot-item">Store Hours & Locations</div>
+
+        </div>
+
+        <div class="foot-sec" id="sec4">
+            <div class="foot-item">FAQ</div>
+            <div class="foot-item">Sign up for the Strand Insider Newsletter</div>
+        </div>
+        <div class="foot-sec" id="sec5">© Copyright 2020 Strand Book Store All Rights Reserved / Privacy Policy</div>
+
+        <div class="foot-sec foot-icons">
+            <img src="../images/facebook.png">
+            <img src="../images/instagram.png">
+            <img src="../images/twitter.png">
+        </div>
+
+    </div>
+</body>
+
+</html>
