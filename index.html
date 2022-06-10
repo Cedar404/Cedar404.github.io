@@ -12,17 +12,19 @@
 </head>
 
 <body>
-    <div class="head-bar div-shadow">
+    <div class="head-bar">
         <div class="menu-icon" id="burgerIcon"><a href="#" onclick="openMenu()">
                 <img src="../images/burger menu.png"></a></div>
-        <h1 class="site-name">Strandbooks</h1>
-        <div class="menu-icon" id="searchIcon"><a href="#"></a><img src="../images/search.png"></div>
+
+        <h1 class="site-name"><a href="index.html">Strandbooks</a></h1>
+
+        <div class="menu-icon" id="searchIcon"><a href="/html/search.html"><img src="../images/search.png"></a></div>
         <div class="menu-icon pc-icon-set" id="storeIcon">
             <a href="#"><img src="../images/find store.png"></a>
             <!-- <div>Find Store</div> -->
         </div>
         <div class="menu-icon  pc-icon-set" id="cartIcon">
-            <a href="#"><img src="../images/cart.png"></a>
+            <a href="/html/cart.html"><img src="../images/cart.png"></a>
             <!-- <div>Cart</div> -->
         </div>
         <div class="menu-icon  pc-icon-set" id="profileIcon">
@@ -37,7 +39,7 @@
             <h3 class="phone-menu-big">Log In</h3>
         </a>
 
-        <a href="#" class="phone-icon-set"><img src="../images/cart.png">
+        <a href="/html/cart.html" class="phone-icon-set"><img src="../images/cart.png">
             <h3 class="phone-menu-big">Shopping Cart</h3>
         </a>
 
@@ -46,7 +48,7 @@
         </a>
 
         <a href="#" class="menu-1" id="menu-item1">Books & Media</a>
-        <a href="#" class="menu-2">Bestsellers</a>
+        <a href="/html/productList.html" class="menu-2">Bestsellers</a>
         <a href="#" class="menu-2">Browse by Section</a>
         <a href="#" class="menu-2">Browse Collections</a>
         <a href="#" class="menu-2">New Arrivals</a>
@@ -82,13 +84,15 @@
                     </div>
                 </div>
                 <div class="book-block div-shadow">
-                    <img class="book-image" src="../images/book-the seven.png" alt="">
-                    <h3 class="book-title">The Seven Husbands of Evelyn Hugo</h3>
-                    <h4 class="author">Taylor Jenkins Reid</h4>
-                    <div class="book-bottom-block">
-                        <div class="price">$15.0</div>
-                        <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
-                    </div>
+                    <a href="/html/productDetail.html">
+                        <img class="book-image" src="../images/book-the seven.png" alt="">
+                        <h3 class="book-title">The Seven Husbands of Evelyn Hugo</h3>
+                        <h4 class="author">Taylor Jenkins Reid</h4>
+                        <div class="book-bottom-block">
+                            <div class="price">$15.0</div>
+                            <div class="cart-icon"><img src="../images/cart1.png" alt=""></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="book-block div-shadow">
                     <img class="book-image" src="../images/book-my year.png" alt="">

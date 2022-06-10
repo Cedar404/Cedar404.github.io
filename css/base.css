@@ -125,6 +125,7 @@ a {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -235,9 +236,13 @@ body {
     height: 20%;
 
     font-size: 3vh;
-    color: #fff;
+
     text-align: center;
     z-index: 2;
+}
+
+.site-name a {
+    color: #fff;
 }
 
 /* side nav bar */
