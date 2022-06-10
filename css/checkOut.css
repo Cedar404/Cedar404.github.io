@@ -1,13 +1,15 @@
-.input-item {
-    display: block;
+.process-bar-holder img {
+    width: 100%;
+    margin-bottom: 2vh;
 }
 
-.checkout-phone-holder {
+.checkout-holder {
     width: 90%;
     margin: 10vh auto 3vh auto;
 }
 
 .input-item {
+    display: block;
     font-size: 2vmax;
     font-family: Sitka Text;
     margin-top: 1.5vh;
@@ -56,6 +58,7 @@ textarea {
 .radio-holder label {
     display: inline-block;
     vertical-align: middle;
+    font-size: 1.8vmax;
     margin-top: 2vh;
     margin-left: 5%;
 }
@@ -81,6 +84,7 @@ textarea {
 }
 
 .checkout-heading {
+    font-size: 2vmax;
     margin-left: 5%;
     margin-top: 1vh;
 }
@@ -148,6 +152,17 @@ textarea {
 
 @media screen and (min-width: 768pt) {
 
+    .process-bar-holder img {
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .process-bar-holder {
+        margin: 0 auto;
+    }
+
     .footer {
         position: absolute;
         bottom: 0%;
@@ -157,8 +172,149 @@ textarea {
     .input-column2,
     .input-column3 {
         display: inline-block;
-        margin-top: 20vh;
+        width: 25%;
     }
 
+    .input-column1,
+    .input-column2 {
+        margin-right: 5vmax;
+    }
+
+    .input-column3 {
+        width: 35%;
+        margin-left: 1vmax;
+    }
+
+    .checkout-holder>* {
+        vertical-align: top;
+    }
+
+    .checkout-holder {
+        width: 80%;
+        margin: 12vh auto 3vh auto;
+    }
+
+    .input-item {
+        display: block;
+        font-size: 0.8vmax;
+        margin-top: 1.5vh;
+        margin-bottom: 0.5vh;
+    }
+
+    .group-holder input,
+    select {
+        width: 100%;
+        height: 4vh;
+        padding: 0;
+        border-width: 2px;
+        border-radius: 0.5vmax;
+    }
+
+    .half-input input {
+        width: 9vw;
+    }
+
+    #state {
+        margin-right: 1vw;
+    }
+
+    textarea {
+        width: 100%;
+        border-radius: 1vmax;
+        margin-bottom: 1vh;
+    }
+
+    .radio-holder {
+        width: 100%;
+        background-color: #fff;
+        border-width: 2px;
+        border-color: rgb(118, 118, 118);
+        border-style: inset;
+        border-radius: 1vmax;
+        padding-bottom: 1vh;
+    }
+
+    .radio-holder input,
+    .radio-holder label {
+        font-size: 1vmax;
+        margin-top: 2vh;
+        margin-left: 5%;
+    }
+
+    .radio-group {
+        vertical-align: middle;
+    }
+
+    .cart-review {
+        width: 100%;
+        margin-top: 2vmax;
+        border-radius: 1vmax;
+    }
+
+    .book-detail-block {
+        position: relative;
+        height: 9vmax;
+        border-radius: 1vh;
+    }
+
+    .checkout-heading {
+        font-size: 1.2vmax;
+        margin-left: 5%;
+        margin-top: 1vh;
+    }
+
+    .book-detailed-image {
+        float: left;
+        margin: 2vh 5%;
+
+        width: 4vmax;
+    }
+
+    .book-info {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cart-title {
+        margin-bottom: 0;
+        padding-top: 1vh;
+        width: 82%;
+        height: 2vmax;
+        font-size: 0.8vmax;
+        line-height: 1.5vmax;
+    }
+
+
+    .book-info {
+        font-size: 0.7vmax;
+        font-family: Georgia;
+        line-height: 1.2vmax;
+    }
+
+    .change-number {
+        position: absolute;
+        right: 5%;
+        bottom: 8%;
+        width: 10vmax;
+    }
+
+    .cart-price {
+        position: absolute;
+        top: 8%;
+        right: 5%;
+        margin-left: 0%;
+        font-size: 1.2vmax;
+    }
+
+    .info2 {
+        display: block;
+    }
+
+    .continue-button {
+        margin: 5vh 0;
+        font-size: 1.5vmax;
+        border-radius: 0.5vmax;
+    }
 
 }
